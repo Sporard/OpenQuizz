@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF06986729F725DB00C23B43 /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
 		CF58CF8329F7011C0044A3E0 /* OpenQuizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF58CF8629F7011C0044A3E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF58CF8829F7011C0044A3E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,18 +47,33 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		CF06985F29F722BC00C23B43 /* View */ = {
+		CF06986429F7254500C23B43 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CF58CF8A29F7011C0044A3E0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF06986529F7255300C23B43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF58CF8C29F7011C0044A3E0 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		CF06986029F722C800C23B43 /* Controller */ = {
+		CF06986629F725DB00C23B43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF58CF8629F7011C0044A3E0 /* AppDelegate.swift */,
+				CF58CF8829F7011C0044A3E0 /* SceneDelegate.swift */,
+				CF58CF8F29F7011E0044A3E0 /* Assets.xcassets */,
+				CF58CF9129F7011E0044A3E0 /* LaunchScreen.storyboard */,
+				CF58CF9429F7011E0044A3E0 /* Info.plist */,
+				CF06986729F725DB00C23B43 /* Balham.otf */,
 			);
-			path = Controller;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		CF58CF7A29F7011C0044A3E0 = {
@@ -79,16 +95,10 @@
 		CF58CF8529F7011C0044A3E0 /* OpenQuizz */ = {
 			isa = PBXGroup;
 			children = (
-				CF06986029F722C800C23B43 /* Controller */,
-				CF06985F29F722BC00C23B43 /* View */,
+				CF06986429F7254500C23B43 /* Controller */,
 				CF06985E29F722B000C23B43 /* Model */,
-				CF58CF8629F7011C0044A3E0 /* AppDelegate.swift */,
-				CF58CF8829F7011C0044A3E0 /* SceneDelegate.swift */,
-				CF58CF8A29F7011C0044A3E0 /* ViewController.swift */,
-				CF58CF8C29F7011C0044A3E0 /* Main.storyboard */,
-				CF58CF8F29F7011E0044A3E0 /* Assets.xcassets */,
-				CF58CF9129F7011E0044A3E0 /* LaunchScreen.storyboard */,
-				CF58CF9429F7011E0044A3E0 /* Info.plist */,
+				CF06986629F725DB00C23B43 /* Supporting Files */,
+				CF06986529F7255300C23B43 /* View */,
 				CF58CF9A29F7174A0044A3E0 /* Balham.otf */,
 			);
 			path = OpenQuizz;
