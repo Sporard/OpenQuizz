@@ -13,6 +13,7 @@
 		CF58CF8E29F7011C0044A3E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF58CF8C29F7011C0044A3E0 /* Main.storyboard */; };
 		CF58CF9029F7011E0044A3E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF58CF8F29F7011E0044A3E0 /* Assets.xcassets */; };
 		CF58CF9329F7011E0044A3E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF58CF9129F7011E0044A3E0 /* LaunchScreen.storyboard */; };
+		CF58CF9B29F7174A0044A3E0 /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = CF58CF9A29F7174A0044A3E0 /* Balham.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CF58CF8F29F7011E0044A3E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF58CF9229F7011E0044A3E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF58CF9429F7011E0044A3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF58CF9A29F7174A0044A3E0 /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Balham.otf; path = ../../../../../../Downloads/Balham.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF06985E29F722B000C23B43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF06985F29F722BC00C23B43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF06986029F722C800C23B43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		CF58CF7A29F7011C0044A3E0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +79,9 @@
 		CF58CF8529F7011C0044A3E0 /* OpenQuizz */ = {
 			isa = PBXGroup;
 			children = (
+				CF06986029F722C800C23B43 /* Controller */,
+				CF06985F29F722BC00C23B43 /* View */,
+				CF06985E29F722B000C23B43 /* Model */,
 				CF58CF8629F7011C0044A3E0 /* AppDelegate.swift */,
 				CF58CF8829F7011C0044A3E0 /* SceneDelegate.swift */,
 				CF58CF8A29F7011C0044A3E0 /* ViewController.swift */,
@@ -63,6 +89,7 @@
 				CF58CF8F29F7011E0044A3E0 /* Assets.xcassets */,
 				CF58CF9129F7011E0044A3E0 /* LaunchScreen.storyboard */,
 				CF58CF9429F7011E0044A3E0 /* Info.plist */,
+				CF58CF9A29F7174A0044A3E0 /* Balham.otf */,
 			);
 			path = OpenQuizz;
 			sourceTree = "<group>";
@@ -127,6 +154,7 @@
 			files = (
 				CF58CF9329F7011E0044A3E0 /* LaunchScreen.storyboard in Resources */,
 				CF58CF9029F7011E0044A3E0 /* Assets.xcassets in Resources */,
+				CF58CF9B29F7174A0044A3E0 /* Balham.otf in Resources */,
 				CF58CF8E29F7011C0044A3E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,9 +17,15 @@
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
+					<key>Fonts </key>
+					<string></string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Balham.otf</string>
+	</array>
 </dict>
 </plist>
