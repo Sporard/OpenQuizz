@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF06986929F86ECA00C23B43 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF06986829F86ECA00C23B43 /* Question.swift */; };
+		CF06986B29F876D300C23B43 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF06986A29F876D300C23B43 /* Game.swift */; };
+		CF06986D29F883FE00C23B43 /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF06986C29F883FE00C23B43 /* QuestionManager.swift */; };
 		CF58CF8729F7011C0044A3E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58CF8629F7011C0044A3E0 /* AppDelegate.swift */; };
 		CF58CF8929F7011C0044A3E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58CF8829F7011C0044A3E0 /* SceneDelegate.swift */; };
 		CF58CF8B29F7011C0044A3E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF58CF8A29F7011C0044A3E0 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		CF06986729F725DB00C23B43 /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
+		CF06986829F86ECA00C23B43 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CF06986A29F876D300C23B43 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CF06986C29F883FE00C23B43 /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
 		CF58CF8329F7011C0044A3E0 /* OpenQuizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF58CF8629F7011C0044A3E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF58CF8829F7011C0044A3E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +49,9 @@
 		CF06985E29F722B000C23B43 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CF06986829F86ECA00C23B43 /* Question.swift */,
+				CF06986A29F876D300C23B43 /* Game.swift */,
+				CF06986C29F883FE00C23B43 /* QuestionManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -70,7 +79,6 @@
 				CF58CF8829F7011C0044A3E0 /* SceneDelegate.swift */,
 				CF58CF8F29F7011E0044A3E0 /* Assets.xcassets */,
 				CF58CF9129F7011E0044A3E0 /* LaunchScreen.storyboard */,
-				CF58CF9429F7011E0044A3E0 /* Info.plist */,
 				CF06986729F725DB00C23B43 /* Balham.otf */,
 			);
 			path = "Supporting Files";
@@ -95,6 +103,7 @@
 		CF58CF8529F7011C0044A3E0 /* OpenQuizz */ = {
 			isa = PBXGroup;
 			children = (
+				CF58CF9429F7011E0044A3E0 /* Info.plist */,
 				CF06986429F7254500C23B43 /* Controller */,
 				CF06985E29F722B000C23B43 /* Model */,
 				CF06986629F725DB00C23B43 /* Supporting Files */,
@@ -177,8 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF58CF8B29F7011C0044A3E0 /* ViewController.swift in Sources */,
+				CF06986B29F876D300C23B43 /* Game.swift in Sources */,
+				CF06986929F86ECA00C23B43 /* Question.swift in Sources */,
 				CF58CF8729F7011C0044A3E0 /* AppDelegate.swift in Sources */,
 				CF58CF8929F7011C0044A3E0 /* SceneDelegate.swift in Sources */,
+				CF06986D29F883FE00C23B43 /* QuestionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
