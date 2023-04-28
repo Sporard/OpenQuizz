@@ -47,7 +47,13 @@ class Game {
         self.currentIndex = 0
         self.state = State.over
         
-        QuestionManager.shared.get(completionHandler: receiveQuestions)
+        QuestionManager.shared.get { (questions) in
+            self.questions = questions
+            self.state = State.ongoing
+            let name = Notification.Name(rawValue: "QuestionsLoaded")
+            let notification = Notification(name: name)
+            NotificationCenter.default.post(notification)
+        }
         
     }
     
