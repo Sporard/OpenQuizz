@@ -29,6 +29,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="New Game" buttonSize="medium">
                                     <fontDescription key="titleFontDescription" name="Balham" family="Balham" pointSize="21"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapNewGameButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="jV9-0T-Vum"/>
+                                </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="kSZ-MG-ZrS">
                                 <rect key="frame" x="178" y="637" width="37" height="37"/>
@@ -68,6 +71,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.35817998649999999" green="0.41779589649999999" blue="0.5019719601" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="kSZ-MG-ZrS" id="rn1-sI-jBj"/>
+                        <outlet property="newGameButton" destination="Dkf-gr-Ds9" id="Nt6-P3-8jM"/>
+                        <outlet property="questionViewOutlet" destination="GZn-aJ-oNC" id="16Z-yf-C2p"/>
+                        <outlet property="score" destination="Lim-2t-A3X" id="ezh-qf-Wib"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
